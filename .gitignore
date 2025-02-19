@@ -1,0 +1,68 @@
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite3
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Arquivos de cache
+*.mypy_cache/
+*.pytest_cache/
+*.tox/
+.coverage
+.cache
+.nox/
+
+# Arquivos de teste
+.tox/
+.pytest_cache/
+
+# Arquivos de configuração de ambiente
+*.env
+*.env.*
+.envrc
+*.ini
+*.cfg
+
+# Arquivos de Docker
+*.pid
+*.tar
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de Power BI (se aplicável)
+*.pbix
